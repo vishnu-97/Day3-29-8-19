@@ -1,0 +1,52 @@
+strings:
+
+s1=new string("indore");
+s2=new string ("indore");
+s3="india";
+s4="india";
+
+s1 and s2 gets refered   to 2 different objects without checking pool
+coz new creates obj without checking pool
+
+s3 gets refered to different object becz pool has no string as"india"
+
+but s4 gets refered to same object as s3 becz pool has string as"india"
+bcoz string without new first checks pool if not found in pool it creates a new obj
+
+
+-----------------------------------------------------------------------------------
+
+stringtokenizer
+fectches tokens
+ 
+ constructors
+ 	stringtokenizer(string)  creates tokens with " " as delimiter
+ 	stringtokenizer(string,"")  creates tokens with anything in "" as delimiter like ",.,;"
+ 	stringtokenizer(string,"",bool)  creates tokens with anything in "" as delimiter like ",.,;" and prints delimiters also
+ 	
+ 	
+ 	
+ 
+ string s="hello manav jain"
+ stringtokenizer s2=new stringtokenizer(s);
+ s2.
+  
+ 
+-----------------------------------------------------------------------------------
+  catch can catch anything which is throwable ie which is under throwable class
+  
+  exceptions which are children of runtime Exceptions class are checked exceptions
+  
+  to get exception message(ie only the exception detailing) one can cll getMessage()
+  
+  AUTOCLOSE TRY
+  IT CAN CLOSE THE ENCLOSED RESOURCE AUTOMATICALLY
+  CAN BE CLOSED ONLY WITH THOSE RESOURCE WHICH IMPLEMENT AUTOCLOSABLE INTERFACE
+  
+  
+-----------------------------------------------------------------------------------
+TASKS
+
+1.string with som roll nos  
+   
+  
